@@ -87,7 +87,7 @@ mod bind;
 mod connection;
 pub(crate) mod hooks;
 pub mod presets;
-pub(crate) mod quic;
+pub mod quic;
 
 #[cfg(not(wasm_browser))]
 pub use bind::{BindOpts, InvalidSocketAddr, ToSocketAddr};
